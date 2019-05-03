@@ -352,6 +352,54 @@
             "key_name": "flower-petals",
             "tier": -1,
             "stack_size": 200
+        },
+        {
+            "name": "Beacon",
+            "key_name": "beacon",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Quartz Crystal",
+            "key_name": "quartz-crystal",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Raw Quartz",
+            "key_name": "raw-quartz",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Crystal Oscillator",
+            "key_name": "crystal-oscillator",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Nobelisk",
+            "key_name": "nobelisk",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Gunpowder",
+            "key_name": "gunpowder",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Sulfur",
+            "key_name": "sulfur",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Cartridge",
+            "key_name": "cartridge",
+            "tier": 0,
+            "stack_size": 100
         }
     ],
     "recipes": [
@@ -909,7 +957,7 @@
             "time": 4,
             "ingredients": [
                 ["mycelia", 1],
-                ["leaves", 2]
+                ["biomass", 5]
             ],
             "product": ["fabric", 1]
         },
@@ -924,6 +972,75 @@
                 ["fabric", 2]
             ],
             "product": ["filter", 1]
+        },
+        {
+            "name": "Beacon",
+            "key_name": "beacon",
+            "category": "crafting3",
+            "time": 8,
+            "ingredients": [
+                ["iron-plate", 3],
+                ["iron-rod", 1],
+                ["wire", 15],
+                ["cable", 2]
+            ],
+            "product": ["beacon", 1]
+        },
+        {
+            "name": "Quartz Crystal",
+            "key_name": "quartz-crystal",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["raw-quartz", 2]
+            ],
+            "product": ["quartz-crystal", 1]
+        },
+        {
+            "name": "Crystal Oscillator",
+            "key_name": "crystal-oscillator",
+            "category": "crafting3",
+            "time": 32,
+            "ingredients": [
+                ["quartz-crystal", 10],
+                ["cable", 14],
+                ["reinforced-iron-plate", 4]
+            ],
+            "product": ["crystal-oscillator", 1]
+        },
+        {
+            "name": "Nobelisk",
+            "key_name": "nobelisk",
+            "category": "crafting3",
+            "time": 20,
+            "ingredients": [
+                ["gunpowder", 5],
+                ["steel-pipe", 5],
+                ["beacon", 1]
+            ],
+            "product": ["nobelisk", 1]
+        },
+        {
+            "name": "Gunpowder",
+            "key_name": "gunpowder",
+            "category": "crafting2",
+            "time": 8,
+            "ingredients": [
+                ["coal", 2],
+                ["sulfur", 1]
+            ],
+            "product": ["gunpowder", 1]
+        },
+        {
+            "name": "Cartridge",
+            "key_name": "cartridge",
+            "category": "crafting2",
+            "time": 20,
+            "ingredients": [
+                ["nobelisk", 1],
+                ["steel-pipe", 4]
+            ],
+            "product": ["cartridge", 4]
         }
     ],
     "resources": [
@@ -950,6 +1067,15 @@
         {
             "key_name": "crude-oil",
             "category": "oil"
+        },
+        {
+            "key_name": "quartz-crystal",
+            "category": "mineral"
+        },
+        {
+            "key_name": "sulfur",
+            "category": "mineral"
         }
+
     ]
 }
