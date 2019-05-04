@@ -356,49 +356,49 @@
         {
             "name": "Beacon",
             "key_name": "beacon",
-            "tier": 0,
+            "tier": -1,
             "stack_size": 100
         },
         {
             "name": "Quartz Crystal",
             "key_name": "quartz-crystal",
-            "tier": 0,
+            "tier": 4,
             "stack_size": 100
         },
         {
             "name": "Raw Quartz",
             "key_name": "raw-quartz",
-            "tier": 0,
+            "tier": 4,
             "stack_size": 100
         },
         {
             "name": "Crystal Oscillator",
             "key_name": "crystal-oscillator",
-            "tier": 0,
+            "tier": 4,
             "stack_size": 100
         },
         {
             "name": "Nobelisk",
             "key_name": "nobelisk",
-            "tier": 0,
-            "stack_size": 100
+            "tier": 4,
+            "stack_size": 50
         },
         {
             "name": "Gunpowder",
             "key_name": "gunpowder",
-            "tier": 0,
+            "tier": 4,
             "stack_size": 100
         },
         {
             "name": "Sulfur",
             "key_name": "sulfur",
-            "tier": 0,
+            "tier": 4,
             "stack_size": 100
         },
         {
             "name": "Cartridge",
             "key_name": "cartridge",
-            "tier": 0,
+            "tier": 5,
             "stack_size": 100
         }
     ],
