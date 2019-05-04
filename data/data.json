@@ -568,6 +568,16 @@
             "product": ["screw", 12]
         },
         {
+            "name": "Alternate: Steel Screw",
+            "key_name": "alt-steel-screw",
+            "category": "crafting1",
+            "time": 8,
+            "ingredients": [
+                ["steel-beam", 5]
+            ],
+            "product": ["screw", 36]
+        },
+        {
             "name": "Biomass",
             "key_name": "biomass-from-wood",
             "category": "crafting1",
@@ -889,7 +899,7 @@
             "category": "smelting1",
             "time": 4,
             "ingredients": [
-                ["caterium-ore", 4]
+                ["caterium-ore", 3]
             ],
             "product": ["caterium-ingot", 1]
         },
